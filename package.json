@@ -4,6 +4,18 @@
   "main": "index.js",
   "license": "BSD-3-Clause",
   "gypfile": true,
+  "keywords": [
+    "systemd"
+  ],
+  "author": "Excitable Aardvark <excitableaardvark@tutanota.de>",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ExcitableAardvark/node-systemd-notify2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ExcitableAardvark/node-systemd-notify2/issues"
+  },
+  "homepage": "https://github.com/ExcitableAardvark/node-systemd-notify2#readme",
   "dependencies": {
     "bindings": "^1.3.0"
   }

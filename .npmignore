@@ -1,1 +1,4 @@
+build/
 example/
+yarn.lock
+yarn-error.log
