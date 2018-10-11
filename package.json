@@ -1,0 +1,10 @@
+{
+  "name": "systemd-notify2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "BSD-3-Clause",
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "^1.3.0"
+  }
+}

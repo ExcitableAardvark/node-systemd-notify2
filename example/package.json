@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "systemd-notify2": "^1.0.0"
+  }
+}

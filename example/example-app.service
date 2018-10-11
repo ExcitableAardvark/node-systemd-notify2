@@ -1,0 +1,23 @@
+[Unit]
+Description=An express app with a watchdog
+Wants=network-online.target
+After=network.target network-online.target
+
+[Service]
+Environment=NODE_ENV=production
+WorkingDirectory=/app
+ExecStart=/usr/bin/node /app/index.js
+Restart=always
+RestartSec=10
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=example-app
+User=node
+Group=node
+Type=notify
+NotifyAccess=main
+TimeoutSec=5
+WatchdogSec=5
+
+[Install]
+WantedBy=multi-user.target
